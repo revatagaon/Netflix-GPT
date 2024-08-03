@@ -2,6 +2,8 @@
 
   - Created React App using Vite
   - Configured TailwindCSS
+  - Header
+  - Login Form
 
 
 # Features
