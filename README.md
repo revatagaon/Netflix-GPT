@@ -2,8 +2,19 @@
 
   - Created React App using Vite
   - Configured TailwindCSS
+  - Routing for App
   - Header
   - Login Form
+  - Form Validation
+  - useRef Hook
+  - Firebase set up
+  - Deployingour app to production
+  - Create a User Account by Sign Up
+  - Implement Sign In User API
+  - Created Redux Store with userSlice
+  - Implemented Sign Out
+  - Update Profile API call
+  - Fetch Movies from TMDB
 
 
 # Features
