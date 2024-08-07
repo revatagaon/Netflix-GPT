@@ -4,7 +4,7 @@ import MORE_INFO from "../assets/more-info.svg"
 /* eslint-disable react/prop-types */
 const VideoTitle = ({ title, overview }) => {
   return (
-    <div className="pt-[20%] px-20 absolute bg-gradient-to-r from-black w-screen aspect-video">
+    <div className="pt-[18%] px-20 absolute bg-gradient-to-r from-black w-screen aspect-video">
       <h1 className="text-4xl font-bold text-white">{title}</h1>
       <p className="py-6 text-md w-5/12 text-white">{overview}</p>
       <div className="flex">
