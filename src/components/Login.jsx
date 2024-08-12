@@ -6,7 +6,7 @@ import { auth } from "../utils/fireBase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../store/userSlice";
 import USER_URL from "../assets/netflix-profile-pictures.jpg";
-import { NETFLIX_LOGO } from "../utils/constants";
+import { NETFLIX_BG_URL } from "../utils/constants";
 
 const Login = () => {
 
@@ -56,8 +56,8 @@ const Login = () => {
       // Sign In Logic
       signInWithEmailAndPassword(auth, email.current.value, password.current.value)
         .then((userCredential) => {
+          // eslint-disable-next-line no-unused-vars
           const user = userCredential.user;
-          console.log(user)
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -71,7 +71,7 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img src={NETFLIX_LOGO}
+        <img src={NETFLIX_BG_URL}
           alt="Logo" />
       </div>
       <form onSubmit={(e) => e.preventDefault()}

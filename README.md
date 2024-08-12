@@ -34,6 +34,10 @@
   - TMDB Image CDN URL
   - Fetch Populat, Top Rated and UpComing Movies
   - Created usePopular, useTopRated and useUpComing movies custom hooks
+  - GPT Search Feature
+  - GPT Search bar
+  - Added Multi-Language feature in our App
+  <!-- - Integrate GPT APIs, get Open AI Key -->
 
 # Features
   - Login/Sign Up
